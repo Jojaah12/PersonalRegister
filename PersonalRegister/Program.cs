@@ -25,7 +25,7 @@
         {
             List<Employee> staffRegister = new List<Employee>();
             string filePath = "staff_register.txt";
-
+            
             if (File.Exists(filePath))
             {
                 string[] lines = File.ReadAllLines(filePath);
